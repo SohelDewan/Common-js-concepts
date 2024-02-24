@@ -15,7 +15,8 @@ Falsy:
 4. undefined
 5. null
 */
-let x = [5, 6];
+// let x = [5, 6];
+let x = undefined;
 console.log(x);
 if(x){
     console.log('value of x is truthy');
@@ -28,10 +29,10 @@ else{
 // check falsy
 const y = null;
 if (!y){
-    console.log('value is falsy')
+    // console.log('value is falsy')
 }
 const z = {class: 9};
 // check true
 if(!!x){
-    console.log('value is truthy');
+    // console.log('value is truthy');
 }
